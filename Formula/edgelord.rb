@@ -1,30 +1,30 @@
 class Edgelord < Formula
   desc "Prediction market arbitrage detection and execution CLI"
   homepage "https://github.com/usealtoal/edgelord"
-  version "0.0.5"
+  version "0.0.6"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/usealtoal/edgelord/releases/download/v#{version}/edgelord-aarch64-apple-darwin.tar.gz"
-      sha256 "64259855d8e7197d678e7477849e71b2f3158ef2901288d7d5dc5483214eeffc"
+      sha256 "2d3f109dd6afc9443c3790b52df085aa47823ccfe68c8f4433a0139980f2656f"
     end
 
     on_intel do
       url "https://github.com/usealtoal/edgelord/releases/download/v#{version}/edgelord-x86_64-apple-darwin.tar.gz"
-      sha256 "069a4a958209ae0dc2cfc7aa29a3ba08469ee6483bff7bfc1cc9735330405754"
+      sha256 "ef850b0369a56fabbb8c838f66f2763d3b8ed674f8629547e7596a29c04af642"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/usealtoal/edgelord/releases/download/v#{version}/edgelord-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "00646d31de540a328fa7c213318ecec95caa36a8a7569d243389f0924d48ef11"
+      sha256 "08c6729f3c0d880044c1a3d07cec2d4294b4c643814f602656068a460cbc592d"
     end
 
     on_intel do
       url "https://github.com/usealtoal/edgelord/releases/download/v#{version}/edgelord-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "da7a43e7b0ac3a1348f87968f54a5b91f8e2cba1eeeb7bf35937d909e7cd7680"
+      sha256 "3ebec65771f635cb412f66800bbb53ad5d3c3d8405b970df36e4e45bdfef8c0c"
     end
   end
 
